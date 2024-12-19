@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/images/player/1/c01_8.png</file>
+        <file>res/images/player/1/Idle_Sheet.png</file>
+        <file>res/images/player/1/Run_Sheet.png</file>
+        <file>res/images/player/2/Die.png</file>
+        <file>res/images/player/2/Idle-Sheet.png</file>
+        <file>res/images/player/2/Run-Sheet.png</file>
+        <file>res/images/player/3/c01_s3_0.png</file>
+        <file>res/images/player/3/c01_s3_1.png</file>
+        <file>res/images/player/3/c01_s3_2.png</file>
+        <file>res/images/player/3/c01_s3_3.png</file>
+        <file>res/images/player/3/c01_s3_4.png</file>
+        <file>res/images/player/3/c01_s3_5.png</file>
+        <file>res/images/player/3/c01_s3_6.png</file>
+        <file>res/images/player/3/c01_s3_7.png</file>
+        <file>res/images/player/3/c01_s3_8.png</file>
+        <file>res/images/room/floor1.png</file>
+        <file>res/map/map1.json</file>
+        <file>res/images/room/door.png</file>
+        <file>res/images/weapon/Ak47.png</file>
+        <file>res/images/weapon/ak47_bullet.png</file>
+        <file>res/images/ui/Point.png</file>
+        <file>res/images/enemy/Boar/Die.png</file>
+        <file>res/images/enemy/Boar/Idle_Sheet.png</file>
+        <file>res/images/enemy/Boar/Run_Sheet.png</file>
+        <file>res/images/enemy/DireBoar/Die.png</file>
+        <file>res/images/enemy/DireBoar/Idle-Sheet.png</file>
+        <file>res/images/enemy/DireBoar/Run-Sheet.png</file>
+        <file>res/images/enemy/Goblin/bullet_18.png</file>
+        <file>res/images/enemy/Goblin/Die.png</file>
+        <file>res/images/enemy/Goblin/Idle_Sheet.png</file>
+        <file>res/images/enemy/Goblin/Run_Sheet.png</file>
+        <file>res/images/enemy/EliteGoblin/Die.png</file>
+        <file>res/images/enemy/EliteGoblin/Idle-Sheet.png</file>
+        <file>res/images/enemy/EliteGoblin/Run-Sheet.png</file>
+        <file>res/images/enemy/Goblin/bullet_21.png</file>
+        <file>res/images/ui/Slider.png</file>
+        <file>res/images/ui/SliderHandle.png</file>
+        <file>res/images/ui/SliderHandleLight.png</file>
+    </qresource>
+</RCC>

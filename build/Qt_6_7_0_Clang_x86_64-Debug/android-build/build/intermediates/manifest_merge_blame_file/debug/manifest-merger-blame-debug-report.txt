@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example.SoulKnight"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:7:5-67
+12-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:8:5-81
+13-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:8:22-78
+14
+15    <supports-screens
+15-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:10:5-14:39
+16        android:anyDensity="true"
+16-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:11:9-34
+17        android:largeScreens="true"
+17-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:12:9-36
+18        android:normalScreens="true"
+18-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:13:9-37
+19        android:smallScreens="true" />
+19-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:14:9-36
+20
+21    <permission
+21-->[androidx.core:core:1.10.1] C:\Users\hp\.gradle\caches\transforms-3\4be2570fd98c550226d6d381b2ee3a14\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+22        android:name="org.qtproject.example.SoulKnight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.10.1] C:\Users\hp\.gradle\caches\transforms-3\4be2570fd98c550226d6d381b2ee3a14\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.10.1] C:\Users\hp\.gradle\caches\transforms-3\4be2570fd98c550226d6d381b2ee3a14\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="org.qtproject.example.SoulKnight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.10.1] C:\Users\hp\.gradle\caches\transforms-3\4be2570fd98c550226d6d381b2ee3a14\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.10.1] C:\Users\hp\.gradle\caches\transforms-3\4be2570fd98c550226d6d381b2ee3a14\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:15:5-51:19
+28        android:name="org.qtproject.qt.android.bindings.QtApplication"
+28-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:16:9-71
+29        android:allowBackup="true"
+29-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:20:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.10.1] C:\Users\hp\.gradle\caches\transforms-3\4be2570fd98c550226d6d381b2ee3a14\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:fullBackupOnly="false"
+32-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:21:9-39
+33        android:hardwareAccelerated="true"
+33-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:17:9-43
+34        android:label="SoulKnight"
+34-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:18:9-35
+35        android:requestLegacyExternalStorage="true" >
+35-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:19:9-52
+36        <activity
+36-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:22:9-40:20
+37            android:name="org.qtproject.qt.android.bindings.QtActivity"
+37-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:23:13-72
+38            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+38-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:24:13-182
+39            android:exported="true"
+39-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:27:13-36
+40            android:launchMode="singleTop"
+40-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:25:13-43
+41            android:screenOrientation="unspecified" >
+41-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:26:13-52
+42            <intent-filter>
+42-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:28:13-31:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:29:17-69
+43-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:29:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:30:17-77
+45-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:30:27-74
+46            </intent-filter>
+47
+48            <meta-data
+48-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:33:11-35:46
+49                android:name="android.app.lib_name"
+49-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:34:17-52
+50                android:value="SoulKnight" />
+50-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:35:17-43
+51            <meta-data
+51-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:37:11-39:36
+52                android:name="android.app.arguments"
+52-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:38:17-53
+53                android:value="" />
+53-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:39:17-33
+54        </activity>
+55
+56        <provider
+57            android:name="androidx.core.content.FileProvider"
+57-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:43:13-62
+58            android:authorities="org.qtproject.example.SoulKnight.qtprovider"
+58-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:44:13-62
+59            android:exported="false"
+59-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:45:13-37
+60            android:grantUriPermissions="true" >
+60-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:46:13-47
+61            <meta-data
+61-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:47:13-49:59
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:48:17-67
+63                android:resource="@xml/qtprovider_paths" />
+63-->C:\Users\hp\Desktop\code\SoulKnight\build\Qt_6_7_0_Clang_x86_64-Debug\android-build\AndroidManifest.xml:49:17-57
+64        </provider>
+65    </application>
+66
+67</manifest>

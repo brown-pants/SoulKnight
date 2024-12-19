@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "org.qtproject.example.SoulKnight-merged_res-8:/xml_qtprovider_paths.xml.flat",
+        "source": "org.qtproject.example.SoulKnight-android-build-9:/xml/qtprovider_paths.xml"
+    }
+]
